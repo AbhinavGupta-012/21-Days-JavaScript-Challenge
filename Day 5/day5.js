@@ -15,7 +15,7 @@ console.log("Push Operator -", favoriteColors);
 // to add a string at the beginning of the array use the unshift() operator
 favoriteColors.unshift("Lime");
 
-console.log("Unshift Operator - ", favoriteColors);
+console.log("Unshift Operator -", favoriteColors);
 
 // to remove a particular value or string from the array use the pop() operator
 favoriteColors.pop("Black");
