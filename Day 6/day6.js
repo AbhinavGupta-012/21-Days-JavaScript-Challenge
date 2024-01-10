@@ -5,6 +5,6 @@ function calculateSum(a, b){
     return console.log(`Result: ${result}`); // return keyword is used to return a value evaluated in the function
 }
 
-// calling the function with the parameters
+// calling the function with the arguments
 calculateSum(2, 4);
 calculateSum(3, 5);
