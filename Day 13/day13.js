@@ -10,7 +10,7 @@ const regex = /^[a-z0-9]+@[a-z]+\.[a-z]{2,3}$/;
 let result = document.getElementById("result");
 
 let validateEmail = () => {
-    let emailId = prompt("Enter your Email Address.")
+    let emailId = prompt("Enter your Email Address.");
     let check = regex.test(emailId);
 
     if (check){
