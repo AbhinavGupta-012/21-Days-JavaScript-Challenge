@@ -14,7 +14,7 @@ let simulateAsync = () => {
             }, delayTime);
         }
     );
-}
+};
 
 simulateAsync()
     .then((value) => {
